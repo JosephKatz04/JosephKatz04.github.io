@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- EDIT: Change the browser tab title here. -->
+  <title>Joseph Katz | Academic Portfolio</title>
+  <meta name="description" content="Academic portfolio for Joseph Joey Katz, MSc student in Immunology at the University of Toronto and SickKids." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- EDIT BACKGROUND VISUALS: The floating cell/network accents are styled in styles.css under ".bio-field". -->
+  <div class="bio-field" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <!-- EDIT SECTION ORDER: Move the matching <section> blocks and update these links if you want a different order. -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="#hero">J. Katz</a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#outputs">Outputs</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">MSc in Applied Immunology by Advanced Study | University of Toronto</p>
+        <!-- EDIT TEXT: Change your name, subtitle, and tagline here. -->
+        <h1>Joseph Katz</h1>
+        <p class="subtitle">Immunology | Computational Biology | Inflammatory Bowel Disease | Liver Transplantation</p>
+        <p class="hero-text">Using multi-omics, machine learning, and computational biology to study immune disease.</p>
+        <div class="hero-actions" aria-label="Profile links">
+          <!-- EDIT CV FILE: Replace assets/Joseph_Katz_CV.pdf if your CV filename changes. -->
+          <a class="button primary" href="assets/Joseph_Katz_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+          <!-- EDIT LINKS: Replace # with your real GitHub and LinkedIn URLs when ready. -->
+          <a class="button" href="https://github.com/JosephKatz04" aria-label="JosephKatz04">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/joseph-katz-81875a253/" aria-label="LinkedIn profile placeholder">LinkedIn</a>
+          <a class="button" href="mailto:joey.katz@mail.utoronto.ca">Email</a>
+        </div>
+      </div>
+      <div class="profile-panel">
+        <!-- EDIT PROFILE PHOTO: Replace assets/profile.PNG with your preferred image file if the filename changes. -->
+        <img class="profile-photo" src="assets/profile.PNG" alt="Joseph Joey Katz profile photo" />
+        <div class="signal-card">
+          <strong>Research Focus</strong>
+          <p>Pediatric IBD, immune profiling, patient-derived organoids, microbiome platforms, and computational biology.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section split">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2>Computational immunology for translational medicine.</h2>
+      </div>
+      <!-- EDIT TEXT: This bio is based on the CV and can be shortened or made more personal. -->
+      <p>Joseph Katz is a current MSc student in Applied Immunology by Advanced Standing at the University of Toronto and SickKids, supervised by Dr. Eytan Wine. His work sits at the intersection of pediatric inflammatory bowel disease, computational immunology, multi-omics, microbiome platforms, metabolomics, proteomics, machine learning, and translational research. He is interested in connecting immune mechanisms, patient-derived models, and clinical data to better understand inflammatory disease.</p>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2>Research Timeline</h2>
+      </div>
+      <!-- EDIT EXPERIENCE ITEMS: Duplicate or remove .timeline-item blocks to change your experience. -->
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="date">May 2026 - Present</span>
+          <h3>MSc Research, Applied Immunology by Advanced Standing</h3>
+          <p class="meta">University of Toronto and SickKids | Supervisor: Dr. Eytan Wine</p>
+          <p>Causal and mechanistic dissection of ultra-processed food-driven gastrointestinal inflammation using patient-derived organoids, microbiome platforms, barrier physiology, immune profiling, and integrative in vivo models.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">Sept 2025 - Present</span>
+          <h3>Immunopathogenesis of Graft Fibrosis Following Liver Transplantation: A Spatial Profiling Approach Using Imaging Mass Cytometry </h3>
+          <p class="meta">University Health Network | Supervisor: Dr. Mamatha Bhat</p>
+          <p>Developed a workflow for human liver IMC preprocessing, single-cell segmentation, immune-cell phenotyping, and dimensional analysis including UMAP and t-SNE.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">Jan 2025 - Present</span>
+          <h3>Multi-Agent AI Evaluation of Donor Suitability</h3>
+          <p class="meta">University Health Network | Supervisor: Dr. Mamatha Bhat</p>
+          <p>Designed a Python-based multi-agent system simulating a liver-transplant selection committee, using retrieval augmented generation and clinical donor data to support decision-making.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="date">Jan 2024 - Sept 2024</span>
+          <h3>Inflammatory Bowel Disease Genetics Research</h3>
+          <p class="meta">Mount Sinai Hospital, Silverberg Gastroenterology Lab</p>
+          <p>Studied genetic and molecular risk factors for IBD through DNA extraction, DNA quantification, ELISA assays, cohort tables, visualization tools, and comparative/regression analyses in Excel and R.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Computational and translational research projects</h2>
+      </div>
+      <!-- EDIT PROJECT CARDS: Change titles, descriptions, and tags inside each .project-card. -->
+      <div class="card-grid">
+        <article class="project-card">
+          <h3>Multi-omics and Machine Learning in Pediatric IBD</h3>
+          <p>Integrative research direction connecting immune profiling, microbiome platforms, patient-derived organoids, and computational modeling for pediatric inflammatory disease.</p>
+          <div class="tags"><span>IBD</span><span>Machine Learning</span><span>Multi-omics</span><span>SHAP</span><span>XGBoost</span></div>
+        </article>
+        <article class="project-card">
+          <h3>Imaging Mass Cytometry Analysis of Fibrosis</h3>
+          <p>Python workflow for IMC preprocessing, segmentation, phenotyping, dimensional analysis, and immune-environment comparison in liver allograft fibrosis.</p>
+          <div class="tags"><span>Python</span><span>IMC</span><span>Spatial Biology</span><span>UMAP</span><span>t-SNE</span></div>
+        </article>
+        <article class="project-card">
+          <h3>Microbiome and Metabolomics Data Exploration</h3>
+          <p>Exploratory project space for microbiome, metabolomics, and proteomics datasets connected to gut inflammation and translational immunology.</p>
+          <div class="tags"><span>R</span><span>tidyverse</span><span>ggplot2</span><span>Microbiome</span><span>Metabolomics</span></div>
+        </article>
+        <article class="project-card">
+          <h3>AI and Biomedical Research Tools</h3>
+          <p>Biomedical AI tools including multi-agent clinical reasoning prototypes, retrieval augmented generation, and structured evaluation workflows for research settings.</p>
+          <div class="tags"><span>Python</span><span>CrewAI</span><span>RAG</span><span>Pandas</span><span>Clinical Data</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>Technical and laboratory toolkit</h2>
+      </div>
+      <!-- EDIT SKILLS: Add or remove list items in each group. -->
+      <div class="skills-grid">
+        <article><h3>Programming</h3><p>Python, R, RStudio, numpy, pandas, Excel</p></article>
+        <article><h3>Data Science</h3><p>Data cleaning, visualization, regression analysis, statistical modeling, dimensionality reduction, t-SNE, UMAP</p></article>
+        <article><h3>Bioinformatics</h3><p>Single-cell segmentation, Mesmer, immune-cell phenotyping, multi-omics exploration, cohort analysis</p></article>
+        <article><h3>Immunology</h3><p>IBD, immunogenetics, immune profiling, ELISA, pediatric inflammatory disease, barrier physiology</p></article>
+        <article><h3>Tools</h3><p>CrewAI, retrieval augmented generation, PowerPoint, ggplot2, tidyverse, GitHub Pages</p></article>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Education</p>
+        <h2>Academic Training</h2>
+      </div>
+      <!-- EDIT EDUCATION: Update dates and degree names as they change. -->
+      <div class="education-list">
+        <article>
+          <span class="date">May 2026 - Present</span>
+          <h3>MSc Applied Immunology by Advanced Standing</h3>
+          <p>University of Toronto and SickKids, Division of Gastroenterology, Hepatology and Nutrition; Cell and Systems Biology. Supervisor: Dr. Eytan Wine.</p>
+        </article>
+        <article>
+          <span class="date">Sept 2022 - Apr 2026</span>
+          <h3>BSc (Honours), Life Science Program</h3>
+          <p>University of Toronto. Double major in Physiology and Immunology. Overall GPA: 3.86. Selected coursework includes Developmental Immunology and Immunology Honours Thesis.</p>
+        </article>
+        <article>
+          <span class="date">Sept 2014 - May 2022</span>
+          <h3>International Baccalaureate Program</h3>
+          <p>Upper Canada College. Advanced specialization in Physics, Math, and Economics.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="outputs" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Presentations / Research Outputs</p>
+        <h2>Research communication</h2>
+      </div>
+      <!-- EDIT OUTPUTS: These are flexible cards for posters, abstracts, thesis work, journal clubs, and future publications. -->
+      <div class="card-grid compact">
+        <article class="project-card"><h3>ORT Summer Student Research Conference Poster</h3><p>First-author poster presentation for the Donor Agent project, United Health Network ORT Summer Student Research Program, 2025.</p></article>
+        <article class="project-card"><h3>Immunology Honours Thesis</h3><p>University of Toronto IMM450 Honours Thesis. Add final title, supervisor, and abstract details here.</p></article>
+        <article class="project-card"><h3>Lab Presentations and Journal Clubs</h3><p>Placeholder for internal lab talks, journal clubs, and project updates.</p></article>
+        <article class="project-card"><h3>Future Publications</h3><p>No publications listed in the CV yet. Add peer-reviewed manuscripts, preprints, or abstracts here when available.</p></article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Achievements</p>
+        <h2>Awards and accomplishments</h2>
+      </div>
+      <!-- EDIT ACHIEVEMENTS: Keep this list factual and add new awards as they occur. -->
+      <div class="achievement-list">
+        <article><span>2023, 2024, 2025, 2026</span><strong>University of Toronto Dean's List Scholar</strong><p>Recognized for achieving a cumulative GPA of 3.50 or higher.</p></article>
+        <article><span>2022</span><strong>General Proficiency Award, Upper Canada College</strong><p>Honored for academic achievement during the 2021-2022 school year.</p></article>
+        <article><span>2021</span><strong>Maurice Clarkson Prize of Academic Honours with Distinction</strong><p>Awarded to students in the top 10% of academic standing.</p></article>
+        <article><span>2018</span><strong>University of Toronto Science Fair Provincial Gold Recipient</strong><p>Recognized for research comparing naturopathic remedies and antibiotics against E. coli and Staphylococcus aureus growth.</p></article>
+        <article><span>Future</span><strong>Conference Awards / Travel Grants</strong><p>Placeholder for future conferences, fellowships, or presentation awards.</p></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Open to research collaborations and academic opportunities.</h2>
+        <p>I am open to research collaborations, computational biology projects, and academic opportunities in immunology, multi-omics, machine learning, and translational medicine.</p>
+      </div>
+      <!-- EDIT CONTACT LINKS: Replace placeholder GitHub and LinkedIn links with real URLs. -->
+      <div class="contact-card">
+        <a href="mailto:joey.katz@mail.utoronto.ca">joey.katz@mail.utoronto.ca</a>
+        <a href="#">GitHub placeholder</a>
+        <a href="#">LinkedIn placeholder</a>
+        <span>Toronto, Ontario, Canada</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- EDIT FOOTER: Change the year or footer text here. -->
+    <p>&copy; 2026 Joseph "Joey" Katz. Built for GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
