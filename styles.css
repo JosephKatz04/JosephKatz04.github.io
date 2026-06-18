@@ -123,6 +123,7 @@ h3 { font-size: 1.12rem; }
 }
 .button:hover { transform: translateY(-2px); box-shadow: var(--shadow); background: white; }
 .button.primary { background: var(--forest); color: var(--cream); border-color: var(--forest); }
+.button.small { min-height: 38px; padding: 0.55rem 0.85rem; font-size: 0.88rem; }
 
 .profile-panel { position: relative; display: grid; gap: 1rem; justify-items: center; }
 .profile-photo {
@@ -169,6 +170,14 @@ h3 { font-size: 1.12rem; }
 }
 .compact .project-card { min-height: 180px; }
 
+.outputs-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.output-card { display: flex; flex-direction: column; padding: 1.25rem; }
+.output-copy { display: flex; flex-direction: column; height: 100%; }
+.output-actions { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 1rem; }
+.output-card .output-actions { margin-top: auto; padding-top: 1rem; }
+.output-card.text-only { justify-content: center; }
+.output-card.text-only .output-copy { padding: 0; }
+
 .skills-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
 .skills-grid article { padding: 1rem; }
 .skills-grid p, .education-list p, .achievement-list p, .contact-section p { color: var(--muted); margin-top: 0.5rem; }
@@ -199,11 +208,12 @@ footer { padding: 2rem 1rem; text-align: center; color: var(--muted); border-top
   .nav-links a { padding: 0.85rem 0.5rem; }
   .hero, .split, .contact-section { grid-template-columns: 1fr; }
   .hero { gap: 2.25rem; min-height: auto; }
-  .card-grid, .skills-grid { grid-template-columns: 1fr; }
+  .card-grid, .skills-grid, .outputs-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 560px) {
   .section { width: min(100% - 1.2rem, 1180px); padding: 4rem 0; }
   .hero-actions .button { width: 100%; }
+  .output-actions .button { width: auto; }
   h1 { font-size: 3rem; }
 }
