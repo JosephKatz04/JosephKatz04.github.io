@@ -181,6 +181,7 @@ h3 { font-size: 1.12rem; }
 .skills-grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
 .skills-grid article { padding: 1rem; }
 .skills-grid p, .education-list p, .achievement-list p, .contact-section p { color: var(--muted); margin-top: 0.5rem; }
+.skills-action { display: flex; justify-content: center; margin-top: 1.5rem; }
 .education-list, .achievement-list { display: grid; gap: 1rem; }
 .education-list article, .achievement-list article { padding: 1.25rem; }
 .achievement-list strong { display: block; color: var(--forest); margin-top: 0.2rem; }
