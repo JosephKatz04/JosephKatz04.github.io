@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 60" fill="none" stroke="#406459" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Restrained lateral silhouette with characteristic longitudinal stripes. -->
+  <path d="M12 30C28 14 57 15 82 22C95 25 108 28 116 29L139 17L134 30L139 43L116 31C102 32 91 37 77 40C49 47 25 43 12 30Z"/>
+  <path d="M52 18L65 10L83 22M63 43L76 50L85 38M32 22C39 27 39 34 34 40"/>
+  <path d="M43 24C65 23 88 29 112 30M43 29C65 28 87 31 110 31M43 34C65 34 84 34 101 32M44 39C64 39 77 36 89 35" stroke-width=".8"/>
+  <circle cx="25" cy="28" r="1.6" fill="#406459" stroke="none"/>
+  <path d="M38 33L51 36L43 40" stroke-width=".8"/>
+</svg>
